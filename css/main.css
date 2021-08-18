@@ -932,7 +932,8 @@
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdd49a', endColorstr='#fdf59a', GradientType=0);
   border-color: #fdf59a #fdf59a #fbed50;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-color: #e3c362d4(0, 0, 0, 0.1) e3c362d4(0, 0, 0, 0.1)
+    e3c362d4(0, 0, 0, 0.25);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
   color: #000;
 }
@@ -3831,7 +3832,7 @@ img {
 .tooltip-inner {
   padding: 0.5rem 0.7rem;
   min-width: 130px;
-  background-color: #ffffff;
+  background-color: #7ed4fc;
   font-size: 14px;
   color: inherit;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
@@ -7080,4 +7081,15 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0;
+}
+
+/* Emma change */
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-link i {
+  font-size: 28px;
 }
